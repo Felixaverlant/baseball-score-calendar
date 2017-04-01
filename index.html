@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>Baseball score calendar</title>
+    <meta name="description" content="Baseball history score calendar vizualisation">
+    <meta name="keywords" content="baseball data datavizualisation felix averlant statistics">
+    <link rel="stylesheet" href="dist/css/bundle.css">
+    <script type="text/javascript" src="dist/js/bundle.js"></script>
+</head>
+
+<body>
+    <div class="header">
+        <h1>Datavizualisation of baseball teams scores </h1>
+        <h2>Data from retrosheet.org (1921 to 2016)</h2>
+        <p class="desc">For every year available, you'll have a detail for every game. <br /> <b>Colors go from red (lost) to green (win).</b> <br />If you hover on each colored square, day of the game and score difference ((selected team score) - (opponent team score)) will be displayed.</p>
+        <p class="sub-title">Select a team to display the vizualisation:</p>
+        <div class="team-selector">
+            <select class="chosen" data-placeholder="Choose a team..."><option> </option></select>
+        </div>
+    </div>
+    <div class="viz"></div>
+</body>
+
+</html>

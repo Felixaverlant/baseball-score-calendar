@@ -1,0 +1,57 @@
+
+body{
+  width: 100%;
+}
+.team-selector{
+  text-align: center;
+}
+
+.header{
+  padding-top: 20px;
+  h1{
+    font-size: 40px;
+  }
+  h2{
+    font-size: 20px;
+  }
+  h1,h2,.desc, .data-desc{
+    color: white;
+    text-align: center;
+  }
+  .desc{
+    line-height: 200%;
+    text-align: center;
+  }
+  .img-calendar{
+    width:50%;
+    height: auto;
+    text-align: center;
+
+  }
+
+  .sub-title{
+    font-size: 25px;
+    font-weight: bold;
+    color: white;
+    text-align: center;
+    margin-bottom: 5px;
+    margin-top: 35px;
+  }
+
+  background: #fd746c; /* fallback for old browsers */
+  background: -webkit-linear-gradient(to left, #fd746c , #ff9068); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to left, #fd746c , #ff9068); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+.viz{
+text-align: center;
+}
+
+.chosen{
+  width: 30%;
+}
+
+
+.team-selector{
+  padding-bottom: 30px;
+}
